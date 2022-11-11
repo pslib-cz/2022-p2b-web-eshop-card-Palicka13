@@ -25,7 +25,6 @@ div {
 }
 
 .product {
-    position: relative;
     height: 425px;
     margin-bottom: 10px;
 }
@@ -54,20 +53,16 @@ img {
 
 .title_nazev {
     text-align: center;
-    font-weight: bold;
+    font-size: 18px;
     background: rgba(255,255,255,0.9);
     top: 80px;
-    padding-top: 10px;
 }
 
 .nazev {
     display: block;
-    font-size: 17px;
-    line-height: 25px;
     text-align: center;
     height: 50px;
     overflow: hidden;
-    padding: 0px 5px;
     max-width: 250px;
     margin: 0 auto;
 }
@@ -89,11 +84,10 @@ img {
 
 .neplati {
     display: block;
-    font-size: 12px;
+    font-size: 10px;
     color: #5F5F5F;
     text-decoration: line-through;
     text-align: right;
-    height: 20px;
 }
 
 .aktualni {
