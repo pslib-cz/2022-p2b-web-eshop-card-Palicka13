@@ -68,14 +68,15 @@ img {
 }
 
 .nakup {
+    max-width: 240px;
     display: block;
     background: #fff;
     padding-bottom: 10px;
 }
 
 .cenik {
-    float: left;
-    width: 50%;
+    max-width: 120px;
+    text-align: left;
 }
 
 .cena {
@@ -106,15 +107,17 @@ img {
 .kosik {
     max-width: 120px;
     width: 50%;
+    float: right;
 }
 
 .kosik p {
-    text-align: center;
+    margin: 0px;
+    justify-self: center;
     height: 40px;
     background: #4BB900 url(https://www.max-shop.cz/media/images/cart_green.png) left 5px center no-repeat;
     background-size: 18px;
-    border-radius: 2px;
     border: none;
+    border-radius: 2px;
     font-size: 15px;
     font-weight: bold;
     color: #fff;
