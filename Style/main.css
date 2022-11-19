@@ -31,28 +31,21 @@ div {
 
 .upoutavka {
     text-align: center;
-    border: 1px #fff solid;
-    width: 280px;
+    max-width: 280px;
+    max-height:400px ;
 }
 
 .obrazek {
     height: 230px;
     overflow: hidden;
-    margin-top: 10px;
-}
-
-.obrazek div {
-    display: block;
-    text-align: center;
 }
 
 img {
     max-height: 230px;
-    vertical-align: middle;
+    max-width: 280px;
 }
 
 .title_nazev {
-    text-align: center;
     font-size: 18px;
     background: rgba(255,255,255,0.9);
     top: 80px;
@@ -60,11 +53,9 @@ img {
 
 .nazev {
     display: block;
-    text-align: center;
     height: 50px;
     overflow: hidden;
-    max-width: 250px;
-    margin: 0 auto;
+    max-width: 200px;
 }
 
 .nakup {
@@ -72,11 +63,6 @@ img {
     display: block;
     background: #fff;
     padding-bottom: 10px;
-}
-
-.cenik {
-    max-width: 120px;
-    text-align: left;
 }
 
 .cena {
@@ -108,20 +94,16 @@ img {
     max-width: 120px;
     width: 50%;
     float: right;
+    background: #4BB900 url(https://www.max-shop.cz/media/images/cart_green.png) left 5px center no-repeat;
+    background-size: 18px;
 }
 
 .kosik p {
     margin: 0px;
-    justify-self: center;
     height: 40px;
-    background: #4BB900 url(https://www.max-shop.cz/media/images/cart_green.png) left 5px center no-repeat;
-    background-size: 18px;
-    border: none;
-    border-radius: 2px;
     font-size: 15px;
     font-weight: bold;
     color: #fff;
-    display: block;
 }
 
 .hodnoceni_box {
